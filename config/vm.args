@@ -1,0 +1,6 @@
+-sname nb_auth_subrequest
+
+-setcookie nb_auth_subrequest_cookie
+
++K true
++A30

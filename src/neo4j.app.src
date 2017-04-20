@@ -1,0 +1,16 @@
+{application, neo4j,
+ [{description, "Neo4j"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {neo4j_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [neo4j]},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
